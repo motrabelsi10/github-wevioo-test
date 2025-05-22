@@ -95,7 +95,7 @@
         "id": "personne",
         "postProcessor": {
             "className": "org.joget.apps.app.lib.BeanShellTool",
-            "properties": {"script": "// import frol \nimport org.java.LogUtil3;"}
+            "properties": {"script": "// import frol \nimport org.java.LogUtil;"}
         },
         "storeBinder": {
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
