@@ -80,11 +80,34 @@
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "personne",
         "description": "",
+        "postProcessorRunOn": "create",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
         "id": "personne",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "postProcessor": {
+            "className": "org.joget.apps.app.lib.MultiTools",
+            "properties": {
+                "runInMultiThread": "",
+                "comment": "",
+                "tools": [{
+                    "className": "org.joget.apps.app.lib.BeanShellTool",
+                    "properties": {"script": "// import frol \nimport org.java.LogUtil;"}
+                }]
+            }
+        },
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "personne"
     }
 }
