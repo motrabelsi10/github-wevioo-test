@@ -1,18 +1,42 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "personne",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "personne",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "aaa",
+            "id": "column_0",
+            "label": "aaa",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "bbb",
+            "id": "column_1",
+            "label": "bbb",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "personne",
+    "id": "personne",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "personne",
+            "extraCondition": "",
+            "cacheRowCount": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }
