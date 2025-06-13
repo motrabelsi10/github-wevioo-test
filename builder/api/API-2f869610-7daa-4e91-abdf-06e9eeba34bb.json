@@ -1,5 +1,17 @@
-{"properties": {
-    "name": "get person",
-    "description": "",
-    "id": "API-2f869610-7daa-4e91-abdf-06e9eeba34bb"
-}}
+{
+    "elements": [{
+        "className": "org.joget.api.lib.AppFormAPI",
+        "properties": {
+            "formDefId": "personne",
+            "ignorePermission": "",
+            "id": "F944F3B9-7C32-4A31-5E63-48BE41FBC096",
+            "label": "",
+            "ENABLED_PATHS": "get:/{recordId}"
+        }
+    }],
+    "properties": {
+        "name": "get person",
+        "description": "",
+        "id": "API-2f869610-7daa-4e91-abdf-06e9eeba34bb"
+    }
+}
