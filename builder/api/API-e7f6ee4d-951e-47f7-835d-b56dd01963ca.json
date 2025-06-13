@@ -1,5 +1,16 @@
-{"properties": {
-    "name": "test",
-    "description": "",
-    "id": "API-e7f6ee4d-951e-47f7-835d-b56dd01963ca"
-}}
+{
+    "elements": [{
+        "className": "org.joget.api.lib.AppFormAPI",
+        "properties": {
+            "formDefId": "personne",
+            "ignorePermission": "",
+            "id": "DC9010F7-E747-4DAC-3D10-D073702B53C9",
+            "label": ""
+        }
+    }],
+    "properties": {
+        "name": "test",
+        "description": "",
+        "id": "API-e7f6ee4d-951e-47f7-835d-b56dd01963ca"
+    }
+}
