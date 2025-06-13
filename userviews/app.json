@@ -43,6 +43,38 @@
                     "userviewCacheScope": "",
                     "readonlyLabel": "true"
                 }
+            },
+            {
+                "className": "org.joget.api.lib.ApiKeyMenu",
+                "properties": {
+                    "list-customFooter": "",
+                    "edit-customHeader": "",
+                    "edit-saveButtonLabel": "",
+                    "list-newButtonLabel": "",
+                    "enableOffline": "",
+                    "customId": "",
+                    "list-deleteButtonLabel": "",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "add-customFooter": "",
+                    "id": "7AA7434424CA40D039B4293688EC9880",
+                    "apiId": "API-e7f6ee4d-951e-47f7-835d-b56dd01963ca",
+                    "add-messageShowAfterComplete": "",
+                    "edit-readonlyLabel": "",
+                    "list-editLinkLabel": "",
+                    "add-cancelButtonLabel": "",
+                    "edit-customFooter": "",
+                    "label": "Manage API Key ",
+                    "add-customHeader": "",
+                    "edit-readonly": "",
+                    "buttonPosition": "bottomLeft",
+                    "add-saveButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "edit-messageShowAfterComplete": "",
+                    "userviewCacheScope": "",
+                    "edit-backButtonLabel": "",
+                    "list-customHeader": ""
+                }
             }
         ],
         "properties": {
