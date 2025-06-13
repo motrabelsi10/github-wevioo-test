@@ -1,13 +1,23 @@
 {
-    "elements": [{
-        "className": "org.joget.api.lib.AppFormAPI",
-        "properties": {
-            "formDefId": "personne",
-            "ignorePermission": "",
-            "id": "DC9010F7-E747-4DAC-3D10-D073702B53C9",
-            "label": ""
+    "elements": [
+        {
+            "className": "org.joget.api.lib.AppFormAPI",
+            "properties": {
+                "formDefId": "personne",
+                "ignorePermission": "",
+                "id": "DC9010F7-E747-4DAC-3D10-D073702B53C9",
+                "label": ""
+            }
+        },
+        {
+            "className": "org.joget.api.lib.AppListAPI",
+            "properties": {
+                "listDefId": "personne",
+                "id": "091765BE-CAEC-475B-AC30-9F5D1AB3BE34",
+                "label": ""
+            }
         }
-    }],
+    ],
     "properties": {
         "name": "test",
         "description": "",
