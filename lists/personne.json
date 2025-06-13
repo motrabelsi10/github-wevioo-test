@@ -8,17 +8,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "modifiedByName",
-            "id": "column_5",
-            "label": "Modified By Name",
+            "name": "id",
+            "id": "column_3",
+            "label": "ID",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_3",
-            "label": "ID",
+            "name": "dateCreated",
+            "id": "column_5",
+            "label": "Date Created",
             "sortable": "false"
         }
     ],
