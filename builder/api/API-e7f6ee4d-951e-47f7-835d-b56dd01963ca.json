@@ -7,7 +7,7 @@
                 "ignorePermission": "",
                 "id": "DC9010F7-E747-4DAC-3D10-D073702B53C9",
                 "label": "",
-                "ENABLED_PATHS": "post:/"
+                "ENABLED_PATHS": "post:/;get:/{recordId}"
             }
         },
         {
