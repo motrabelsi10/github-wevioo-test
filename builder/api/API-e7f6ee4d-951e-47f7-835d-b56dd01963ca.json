@@ -16,7 +16,7 @@
                 "listDefId": "personne",
                 "id": "091765BE-CAEC-475B-AC30-9F5D1AB3BE34",
                 "label": "",
-                "ENABLED_PATHS": ""
+                "ENABLED_PATHS": ";get:/"
             }
         }
     ],
