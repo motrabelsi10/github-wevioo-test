@@ -7,9 +7,9 @@
     "columns": [{
         "filterable": true,
         "hidden": "false",
-        "name": "ccc",
-        "id": "column_2",
-        "label": "ccc",
+        "name": "id",
+        "id": "column_3",
+        "label": "ID",
         "sortable": "false"
     }],
     "pageSize": "0",
