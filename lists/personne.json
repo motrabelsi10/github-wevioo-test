@@ -4,24 +4,14 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "aaa",
-            "id": "column_0",
-            "label": "aaa",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "bbb",
-            "id": "column_1",
-            "label": "bbb",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "name": "ccc",
+        "id": "column_2",
+        "label": "ccc",
+        "sortable": "false"
+    }],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
