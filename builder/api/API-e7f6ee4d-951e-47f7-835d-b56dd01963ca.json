@@ -4,7 +4,7 @@
             "className": "org.joget.api.lib.AppFormAPI",
             "properties": {
                 "formDefId": "personne",
-                "ignorePermission": "",
+                "ignorePermission": "true",
                 "id": "DC9010F7-E747-4DAC-3D10-D073702B53C9",
                 "label": "",
                 "ENABLED_PATHS": "post:/;get:/{recordId}"
